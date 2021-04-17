@@ -1,4 +1,4 @@
-정수 제곱근 판별
+제목 : 정수 제곱근 판별
 문제 설명
 임의의 양의 정수 n에 대해, n이 어떤 양의 정수 x의 제곱인지 아닌지 판단하려 합니다.
 n이 양의 정수 x의 제곱이라면 x+1의 제곱을 리턴하고, n이 양의 정수 x의 제곱이 아니라면 -1을 리턴하는 함수를 완성하세요.
@@ -15,3 +15,24 @@ n	return
 
 입출력 예#2
 3은 양의 정수의 제곱이 아니므로, -1을 리턴합니다.
+
+Title : Check if the integer is square root or not
+
+Description
+For any positive integer n, we want to check whether n is the square of any positive integer x.
+Complete a function that returns x+1's square if n is the square of a positive integer x, and returns -1 if n is not the square of a positive integer x.
+
+Restrictions
+n is a positive integer greater than 1 and less than 500000000000.
+
+Input/Output Example
+n return
+121 144
+3 -1
+
+Input/Output Example Description
+Input/Output Example #1
+121 is the square of a positive integer 11, so it returns 144 squared (11+1).
+
+Input/Output Example#2
+3 is not a square of a positive integer, so returns -1.
